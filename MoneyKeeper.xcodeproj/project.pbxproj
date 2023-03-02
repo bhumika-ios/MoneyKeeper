@@ -31,6 +31,7 @@
 		AC5BDD0A29B0A60D005D9B4A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0929B0A60D005D9B4A /* Helpers.swift */; };
 		AC5BDD0C29B0A689005D9B4A /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0B29B0A689005D9B4A /* PieChartCell.swift */; };
 		AC5BDD0E29B0A729005D9B4A /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0D29B0A729005D9B4A /* PieChartView.swift */; };
+		AC5BDD1029B0A7A2005D9B4A /* DashboardTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0F29B0A7A2005D9B4A /* DashboardTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		AC5BDD0929B0A60D005D9B4A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		AC5BDD0B29B0A689005D9B4A /* PieChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartCell.swift; sourceTree = "<group>"; };
 		AC5BDD0D29B0A729005D9B4A /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		AC5BDD0F29B0A7A2005D9B4A /* DashboardTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				AC5BDD0129B0A473005D9B4A /* SearchView.swift */,
 				AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */,
 				AC5BDD0529B0A53F005D9B4A /* SelectSortOrderView.swift */,
+				AC5BDD0F29B0A7A2005D9B4A /* DashboardTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				AC5BDD0229B0A473005D9B4A /* SearchView.swift in Sources */,
 				AC5BDCEC29B097DC005D9B4A /* Utils.swift in Sources */,
 				AC5BDCF229B09958005D9B4A /* Category.swift in Sources */,
+				AC5BDD1029B0A7A2005D9B4A /* DashboardTabView.swift in Sources */,
 				AC5BDCFE29B0A002005D9B4A /* MoneyKeeperListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

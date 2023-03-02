@@ -29,6 +29,7 @@
 		AC5BDD0629B0A53F005D9B4A /* SelectSortOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0529B0A53F005D9B4A /* SelectSortOrderView.swift */; };
 		AC5BDD0829B0A5E2005D9B4A /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */; };
 		AC5BDD0A29B0A60D005D9B4A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0929B0A60D005D9B4A /* Helpers.swift */; };
+		AC5BDD0C29B0A689005D9B4A /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0B29B0A689005D9B4A /* PieChartCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		AC5BDD0529B0A53F005D9B4A /* SelectSortOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSortOrderView.swift; sourceTree = "<group>"; };
 		AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartRow.swift; sourceTree = "<group>"; };
 		AC5BDD0929B0A60D005D9B4A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		AC5BDD0B29B0A689005D9B4A /* PieChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */,
 				AC5BDD0929B0A60D005D9B4A /* Helpers.swift */,
+				AC5BDD0B29B0A689005D9B4A /* PieChartCell.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				AC5BDD0629B0A53F005D9B4A /* SelectSortOrderView.swift in Sources */,
 				AC5BDCFC29B09BDF005D9B4A /* CategoryImageView.swift in Sources */,
 				AC5BDCF829B09AF1005D9B4A /* Sort.swift in Sources */,
+				AC5BDD0C29B0A689005D9B4A /* PieChartCell.swift in Sources */,
 				AC5BDCD329B09381005D9B4A /* MoneyKeeperApp.swift in Sources */,
 				AC5BDD0029B0A3D8005D9B4A /* MoneyTabView.swift in Sources */,
 				AC5BDD0229B0A473005D9B4A /* SearchView.swift in Sources */,

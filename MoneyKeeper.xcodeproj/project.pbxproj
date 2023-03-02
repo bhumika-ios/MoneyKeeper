@@ -13,6 +13,7 @@
 		AC5BDCDA29B09382005D9B4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5BDCD929B09382005D9B4A /* Preview Assets.xcassets */; };
 		AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCDB29B09382005D9B4A /* Persistence.swift */; };
 		AC5BDCDF29B09382005D9B4A /* MoneyKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCDD29B09382005D9B4A /* MoneyKeeper.xcdatamodeld */; };
+		AC5BDCEA29B0962E005D9B4A /* AddMoneyKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AC5BDCD929B09382005D9B4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC5BDCDB29B09382005D9B4A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AC5BDCDE29B09382005D9B4A /* MoneyKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyKeeper.xcdatamodel; sourceTree = "<group>"; };
+		AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyKeeper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,11 @@
 		AC5BDCD129B09381005D9B4A /* MoneyKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				AC5BDCE829B095B1005D9B4A /* Charts */,
+				AC5BDCE729B0955F005D9B4A /* Extensions */,
+				AC5BDCE629B0952E005D9B4A /* Model */,
+				AC5BDCE529B09528005D9B4A /* View */,
 				AC5BDCD229B09381005D9B4A /* MoneyKeeperApp.swift */,
-				AC5BDCD429B09381005D9B4A /* ContentView.swift */,
 				AC5BDCD629B09382005D9B4A /* Assets.xcassets */,
 				AC5BDCDB29B09382005D9B4A /* Persistence.swift */,
 				AC5BDCDD29B09382005D9B4A /* MoneyKeeper.xcdatamodeld */,
@@ -71,6 +76,36 @@
 				AC5BDCD929B09382005D9B4A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC5BDCE529B09528005D9B4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC5BDCD429B09381005D9B4A /* ContentView.swift */,
+				AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC5BDCE629B0952E005D9B4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC5BDCE729B0955F005D9B4A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC5BDCE829B095B1005D9B4A /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5BDCEA29B0962E005D9B4A /* AddMoneyKeeper.swift in Sources */,
 				AC5BDCDF29B09382005D9B4A /* MoneyKeeper.xcdatamodeld in Sources */,
 				AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */,
 				AC5BDCD529B09381005D9B4A /* ContentView.swift in Sources */,

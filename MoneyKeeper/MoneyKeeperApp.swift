@@ -13,7 +13,7 @@ struct MoneyKeeperApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddMoneyKeeper()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

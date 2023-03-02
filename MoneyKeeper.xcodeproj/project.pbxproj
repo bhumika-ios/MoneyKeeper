@@ -14,6 +14,8 @@
 		AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCDB29B09382005D9B4A /* Persistence.swift */; };
 		AC5BDCDF29B09382005D9B4A /* MoneyKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCDD29B09382005D9B4A /* MoneyKeeper.xcdatamodeld */; };
 		AC5BDCEA29B0962E005D9B4A /* AddMoneyKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */; };
+		AC5BDCEC29B097DC005D9B4A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCEB29B097DC005D9B4A /* Utils.swift */; };
+		AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCEF29B098EE005D9B4A /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		AC5BDCDB29B09382005D9B4A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AC5BDCDE29B09382005D9B4A /* MoneyKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyKeeper.xcdatamodel; sourceTree = "<group>"; };
 		AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyKeeper.swift; sourceTree = "<group>"; };
+		AC5BDCEB29B097DC005D9B4A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AC5BDCEF29B098EE005D9B4A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		AC5BDCE729B0955F005D9B4A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				AC5BDCEB29B097DC005D9B4A /* Utils.swift */,
+				AC5BDCEF29B098EE005D9B4A /* Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -180,9 +186,11 @@
 			files = (
 				AC5BDCEA29B0962E005D9B4A /* AddMoneyKeeper.swift in Sources */,
 				AC5BDCDF29B09382005D9B4A /* MoneyKeeper.xcdatamodeld in Sources */,
+				AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */,
 				AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */,
 				AC5BDCD529B09381005D9B4A /* ContentView.swift in Sources */,
 				AC5BDCD329B09381005D9B4A /* MoneyKeeperApp.swift in Sources */,
+				AC5BDCEC29B097DC005D9B4A /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

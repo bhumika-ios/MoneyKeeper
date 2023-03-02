@@ -11,6 +11,7 @@ import CoreData
 struct AddMoneyKeeper: View {
     @State var name: String = ""
     @State var amount: Double = 0
+    @State var category: Category = .utilities
     @State var date: Date = Date()
     var body: some View {
         NavigationView {

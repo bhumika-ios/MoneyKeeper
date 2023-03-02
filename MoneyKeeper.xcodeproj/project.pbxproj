@@ -16,6 +16,7 @@
 		AC5BDCEA29B0962E005D9B4A /* AddMoneyKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */; };
 		AC5BDCEC29B097DC005D9B4A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCEB29B097DC005D9B4A /* Utils.swift */; };
 		AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCEF29B098EE005D9B4A /* Extension.swift */; };
+		AC5BDCF229B09958005D9B4A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF129B09958005D9B4A /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyKeeper.swift; sourceTree = "<group>"; };
 		AC5BDCEB29B097DC005D9B4A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		AC5BDCEF29B098EE005D9B4A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		AC5BDCF129B09958005D9B4A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		AC5BDCE629B0952E005D9B4A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AC5BDCF129B09958005D9B4A /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				AC5BDCD529B09381005D9B4A /* ContentView.swift in Sources */,
 				AC5BDCD329B09381005D9B4A /* MoneyKeeperApp.swift in Sources */,
 				AC5BDCEC29B097DC005D9B4A /* Utils.swift in Sources */,
+				AC5BDCF229B09958005D9B4A /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

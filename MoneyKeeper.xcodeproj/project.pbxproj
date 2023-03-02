@@ -22,6 +22,7 @@
 		AC5BDCF829B09AF1005D9B4A /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF729B09AF1005D9B4A /* Sort.swift */; };
 		AC5BDCFA29B09BAA005D9B4A /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF929B09BAA005D9B4A /* CategoryRowView.swift */; };
 		AC5BDCFC29B09BDF005D9B4A /* CategoryImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCFB29B09BDF005D9B4A /* CategoryImageView.swift */; };
+		AC5BDCFE29B0A002005D9B4A /* MoneyKeeperListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCFD29B0A002005D9B4A /* MoneyKeeperListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		AC5BDCF729B09AF1005D9B4A /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		AC5BDCF929B09BAA005D9B4A /* CategoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
 		AC5BDCFB29B09BDF005D9B4A /* CategoryImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImageView.swift; sourceTree = "<group>"; };
+		AC5BDCFD29B0A002005D9B4A /* MoneyKeeperListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyKeeperListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */,
 				AC5BDCF929B09BAA005D9B4A /* CategoryRowView.swift */,
 				AC5BDCFB29B09BDF005D9B4A /* CategoryImageView.swift */,
+				AC5BDCFD29B0A002005D9B4A /* MoneyKeeperListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				AC5BDCD329B09381005D9B4A /* MoneyKeeperApp.swift in Sources */,
 				AC5BDCEC29B097DC005D9B4A /* Utils.swift in Sources */,
 				AC5BDCF229B09958005D9B4A /* Category.swift in Sources */,
+				AC5BDCFE29B0A002005D9B4A /* MoneyKeeperListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

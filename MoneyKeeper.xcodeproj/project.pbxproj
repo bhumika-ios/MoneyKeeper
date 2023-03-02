@@ -27,6 +27,8 @@
 		AC5BDD0229B0A473005D9B4A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0129B0A473005D9B4A /* SearchView.swift */; };
 		AC5BDD0429B0A4CF005D9B4A /* FilteringCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */; };
 		AC5BDD0629B0A53F005D9B4A /* SelectSortOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0529B0A53F005D9B4A /* SelectSortOrderView.swift */; };
+		AC5BDD0829B0A5E2005D9B4A /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */; };
+		AC5BDD0A29B0A60D005D9B4A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0929B0A60D005D9B4A /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		AC5BDD0129B0A473005D9B4A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringCategoryView.swift; sourceTree = "<group>"; };
 		AC5BDD0529B0A53F005D9B4A /* SelectSortOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSortOrderView.swift; sourceTree = "<group>"; };
+		AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartRow.swift; sourceTree = "<group>"; };
+		AC5BDD0929B0A60D005D9B4A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 		AC5BDCE829B095B1005D9B4A /* Charts */ = {
 			isa = PBXGroup;
 			children = (
+				AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */,
+				AC5BDD0929B0A60D005D9B4A /* Helpers.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -218,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5BDCEA29B0962E005D9B4A /* AddMoneyKeeper.swift in Sources */,
+				AC5BDD0829B0A5E2005D9B4A /* PieChartRow.swift in Sources */,
 				AC5BDCDF29B09382005D9B4A /* MoneyKeeper.xcdatamodeld in Sources */,
+				AC5BDD0A29B0A60D005D9B4A /* Helpers.swift in Sources */,
 				AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */,
 				AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */,
 				AC5BDD0429B0A4CF005D9B4A /* FilteringCategoryView.swift in Sources */,

@@ -24,7 +24,7 @@ struct MoneyTabView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 0) {
-                SearchBar(text: $searchText, keyboardHeight: $searchBarHeight, placeholder: "Search expenses")
+//                SearchBar(text: $searchText, keyboardHeight: $searchBarHeight, placeholder: "Search MoneyDetails")
                 FilterCategoriesView(selectedCategories: $selectedCategories)
                 Divider()
                 SelectSortOrderView(sortType: $sortType, sortOrder: $sortOrder)
@@ -36,7 +36,7 @@ struct MoneyTabView: View {
                 AddMoneyKeeper(context: self.context)
             }
             .navigationBarItems(trailing: Button(action: addTapped) { Text("Add") })
-            .navigationBarTitle("Expense Logs", displayMode: .inline)
+            .navigationBarTitle("MoneyKeeper", displayMode: .inline)
         }
     }
     

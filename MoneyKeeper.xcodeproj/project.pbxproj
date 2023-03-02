@@ -20,6 +20,8 @@
 		AC5BDCF429B099B7005D9B4A /* MoneySpent+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF329B099B7005D9B4A /* MoneySpent+Extension.swift */; };
 		AC5BDCF629B09A8D005D9B4A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF529B09A8D005D9B4A /* CoreDataStack.swift */; };
 		AC5BDCF829B09AF1005D9B4A /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF729B09AF1005D9B4A /* Sort.swift */; };
+		AC5BDCFA29B09BAA005D9B4A /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF929B09BAA005D9B4A /* CategoryRowView.swift */; };
+		AC5BDCFC29B09BDF005D9B4A /* CategoryImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCFB29B09BDF005D9B4A /* CategoryImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		AC5BDCF329B099B7005D9B4A /* MoneySpent+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoneySpent+Extension.swift"; sourceTree = "<group>"; };
 		AC5BDCF529B09A8D005D9B4A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		AC5BDCF729B09AF1005D9B4A /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		AC5BDCF929B09BAA005D9B4A /* CategoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
+		AC5BDCFB29B09BDF005D9B4A /* CategoryImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			children = (
 				AC5BDCD429B09381005D9B4A /* ContentView.swift */,
 				AC5BDCE929B0962E005D9B4A /* AddMoneyKeeper.swift */,
+				AC5BDCF929B09BAA005D9B4A /* CategoryRowView.swift */,
+				AC5BDCFB29B09BDF005D9B4A /* CategoryImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,8 +207,10 @@
 				AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */,
 				AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */,
 				AC5BDCD529B09381005D9B4A /* ContentView.swift in Sources */,
+				AC5BDCFA29B09BAA005D9B4A /* CategoryRowView.swift in Sources */,
 				AC5BDCF629B09A8D005D9B4A /* CoreDataStack.swift in Sources */,
 				AC5BDCF429B099B7005D9B4A /* MoneySpent+Extension.swift in Sources */,
+				AC5BDCFC29B09BDF005D9B4A /* CategoryImageView.swift in Sources */,
 				AC5BDCF829B09AF1005D9B4A /* Sort.swift in Sources */,
 				AC5BDCD329B09381005D9B4A /* MoneyKeeperApp.swift in Sources */,
 				AC5BDCEC29B097DC005D9B4A /* Utils.swift in Sources */,

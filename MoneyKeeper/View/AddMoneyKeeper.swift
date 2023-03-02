@@ -19,7 +19,12 @@ struct AddMoneyKeeper: View {
                     .disableAutocorrection(true)
                 TextField("Amount", value: $amount, formatter: Utils.numberFormatter)
                     .keyboardType(.numbersAndPunctuation)
-               
+                    
+                Picker(selection: $category, label: Text("Category")) {
+                    ForEach(Category.allCases) { category in
+                        Text(category.rawValue.capitalized).tag(category)
+                    }
+                }
                 DatePicker(selection: $date, displayedComponents: .date) {
                     Text("Date")
                 }

@@ -10,20 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
+            MoneyTabView()
+                .tabItem {
+                    VStack {
+                        Text("Home")
+                        Image(systemName: "homekit")
+                       
+           
+                    }
+            }
+            .tag(0)
             DashboardTabView()
                 .tabItem {
                     VStack {
                         Text("Dashboard")
                         Image(systemName: "chart.pie")
-                    }
-            }
-            .tag(0)
-            
-            MoneyTabView()
-                .tabItem {
-                    VStack {
-                        Text("Logs")
-                        Image(systemName: "tray")
+           
                     }
             }
             .tag(1)

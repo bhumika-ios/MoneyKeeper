@@ -18,6 +18,7 @@
 		AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCEF29B098EE005D9B4A /* Extension.swift */; };
 		AC5BDCF229B09958005D9B4A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF129B09958005D9B4A /* Category.swift */; };
 		AC5BDCF429B099B7005D9B4A /* MoneySpent+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF329B099B7005D9B4A /* MoneySpent+Extension.swift */; };
+		AC5BDCF629B09A8D005D9B4A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCF529B09A8D005D9B4A /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		AC5BDCEF29B098EE005D9B4A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		AC5BDCF129B09958005D9B4A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		AC5BDCF329B099B7005D9B4A /* MoneySpent+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoneySpent+Extension.swift"; sourceTree = "<group>"; };
+		AC5BDCF529B09A8D005D9B4A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				AC5BDCF129B09958005D9B4A /* Category.swift */,
 				AC5BDCF329B099B7005D9B4A /* MoneySpent+Extension.swift */,
+				AC5BDCF529B09A8D005D9B4A /* CoreDataStack.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */,
 				AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */,
 				AC5BDCD529B09381005D9B4A /* ContentView.swift in Sources */,
+				AC5BDCF629B09A8D005D9B4A /* CoreDataStack.swift in Sources */,
 				AC5BDCF429B099B7005D9B4A /* MoneySpent+Extension.swift in Sources */,
 				AC5BDCD329B09381005D9B4A /* MoneyKeeperApp.swift in Sources */,
 				AC5BDCEC29B097DC005D9B4A /* Utils.swift in Sources */,

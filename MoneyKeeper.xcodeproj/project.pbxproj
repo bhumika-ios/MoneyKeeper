@@ -26,6 +26,7 @@
 		AC5BDD0029B0A3D8005D9B4A /* MoneyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCFF29B0A3D8005D9B4A /* MoneyTabView.swift */; };
 		AC5BDD0229B0A473005D9B4A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0129B0A473005D9B4A /* SearchView.swift */; };
 		AC5BDD0429B0A4CF005D9B4A /* FilteringCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */; };
+		AC5BDD0629B0A53F005D9B4A /* SelectSortOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0529B0A53F005D9B4A /* SelectSortOrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		AC5BDCFF29B0A3D8005D9B4A /* MoneyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTabView.swift; sourceTree = "<group>"; };
 		AC5BDD0129B0A473005D9B4A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringCategoryView.swift; sourceTree = "<group>"; };
+		AC5BDD0529B0A53F005D9B4A /* SelectSortOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSortOrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				AC5BDCFF29B0A3D8005D9B4A /* MoneyTabView.swift */,
 				AC5BDD0129B0A473005D9B4A /* SearchView.swift */,
 				AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */,
+				AC5BDD0529B0A53F005D9B4A /* SelectSortOrderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				AC5BDCFA29B09BAA005D9B4A /* CategoryRowView.swift in Sources */,
 				AC5BDCF629B09A8D005D9B4A /* CoreDataStack.swift in Sources */,
 				AC5BDCF429B099B7005D9B4A /* MoneySpent+Extension.swift in Sources */,
+				AC5BDD0629B0A53F005D9B4A /* SelectSortOrderView.swift in Sources */,
 				AC5BDCFC29B09BDF005D9B4A /* CategoryImageView.swift in Sources */,
 				AC5BDCF829B09AF1005D9B4A /* Sort.swift in Sources */,
 				AC5BDCD329B09381005D9B4A /* MoneyKeeperApp.swift in Sources */,

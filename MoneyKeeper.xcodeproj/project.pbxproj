@@ -30,6 +30,7 @@
 		AC5BDD0829B0A5E2005D9B4A /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */; };
 		AC5BDD0A29B0A60D005D9B4A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0929B0A60D005D9B4A /* Helpers.swift */; };
 		AC5BDD0C29B0A689005D9B4A /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0B29B0A689005D9B4A /* PieChartCell.swift */; };
+		AC5BDD0E29B0A729005D9B4A /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0D29B0A729005D9B4A /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartRow.swift; sourceTree = "<group>"; };
 		AC5BDD0929B0A60D005D9B4A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		AC5BDD0B29B0A689005D9B4A /* PieChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartCell.swift; sourceTree = "<group>"; };
+		AC5BDD0D29B0A729005D9B4A /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				AC5BDD0729B0A5E2005D9B4A /* PieChartRow.swift */,
 				AC5BDD0929B0A60D005D9B4A /* Helpers.swift */,
 				AC5BDD0B29B0A689005D9B4A /* PieChartCell.swift */,
+				AC5BDD0D29B0A729005D9B4A /* PieChartView.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				AC5BDD0829B0A5E2005D9B4A /* PieChartRow.swift in Sources */,
 				AC5BDCDF29B09382005D9B4A /* MoneyKeeper.xcdatamodeld in Sources */,
 				AC5BDD0A29B0A60D005D9B4A /* Helpers.swift in Sources */,
+				AC5BDD0E29B0A729005D9B4A /* PieChartView.swift in Sources */,
 				AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */,
 				AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */,
 				AC5BDD0429B0A4CF005D9B4A /* FilteringCategoryView.swift in Sources */,

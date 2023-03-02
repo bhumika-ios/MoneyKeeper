@@ -8,6 +8,9 @@
 import SwiftUI
 import CoreData
 
+import SwiftUI
+import CoreData
+
 struct MoneyKeeperListView: View {
     
     @State var moneyToEdit: MoneySpent?
@@ -37,7 +40,7 @@ struct MoneyKeeperListView: View {
         List {
             ForEach(result) { (money: MoneySpent) in
                 Button(action: {
-                    self.moneyToEdit = log
+                    self.moneyToEdit = money
                 }) {
                     HStack(spacing: 16) {
                         CategoryImageView(category: money.categoryEnum)
@@ -58,6 +61,7 @@ struct MoneyKeeperListView: View {
             .sheet(item: $moneyToEdit, onDismiss: {
                 self.moneyToEdit = nil
             }) { (money: MoneySpent) in
+              
                 AddMoneyKeeper(
                     moneyToEdit: money,
                     context: self.context,
@@ -79,12 +83,11 @@ struct MoneyKeeperListView: View {
     }
 }
 
-struct MoneyKeeperListView_Previews: PreviewProvider {
+struct LogListView_Previews: PreviewProvider {
     static var previews: some View {
-        let stack = CoreDataStack(containerName: "MoneyKeeper")
+        let stack = CoreDataStack(containerName: "MoneySpent")
         let sortDescriptor = ExpenseLogSort(sortType: .date, sortOrder: .descending).sortDescriptor
         return MoneyKeeperListView(predicate: nil, sortDescriptor: sortDescriptor)
             .environment(\.managedObjectContext, stack.viewContext)
     }
 }
-

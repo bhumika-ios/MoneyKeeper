@@ -42,13 +42,41 @@ struct AddMoneyKeeper: View {
             }
            
 
-//            .navigationBarItems(
-//                leading: Button(action: self.onCancelTapped) { Text("Cancel")},
-//                trailing: Button(action: self.onSaveTapped) { Text("Save")}
-//            )
+            .navigationBarItems(
+                leading: Button(action: self.onCancelTapped) { Text("Cancel")},
+                trailing: Button(action: self.onSaveTapped) { Text("Save")}
+            )
             .navigationBarTitle(title)
             
         }
+    }
+    private func onCancelTapped() {
+        self.presentationMode.wrappedValue.dismiss()
+    }
+    
+    private func onSaveTapped() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+        
+        let money: MoneySpent
+        if let moneyToEdit = self.moneyToEdit {
+            money = moneyToEdit
+        } else {
+            money = MoneySpent(context: self.context)
+            money.id = UUID()
+        }
+        
+        money.name = self.name
+        money.category = self.category.rawValue
+        money.amount = NSDecimalNumber(value: self.amount)
+        money.date = self.date
+        
+        do {
+            try context.save()
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+        
+        self.presentationMode.wrappedValue.dismiss()
     }
 }
 

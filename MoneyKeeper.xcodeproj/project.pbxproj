@@ -25,6 +25,7 @@
 		AC5BDCFE29B0A002005D9B4A /* MoneyKeeperListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCFD29B0A002005D9B4A /* MoneyKeeperListView.swift */; };
 		AC5BDD0029B0A3D8005D9B4A /* MoneyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDCFF29B0A3D8005D9B4A /* MoneyTabView.swift */; };
 		AC5BDD0229B0A473005D9B4A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0129B0A473005D9B4A /* SearchView.swift */; };
+		AC5BDD0429B0A4CF005D9B4A /* FilteringCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		AC5BDCFD29B0A002005D9B4A /* MoneyKeeperListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyKeeperListView.swift; sourceTree = "<group>"; };
 		AC5BDCFF29B0A3D8005D9B4A /* MoneyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTabView.swift; sourceTree = "<group>"; };
 		AC5BDD0129B0A473005D9B4A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				AC5BDCFD29B0A002005D9B4A /* MoneyKeeperListView.swift */,
 				AC5BDCFF29B0A3D8005D9B4A /* MoneyTabView.swift */,
 				AC5BDD0129B0A473005D9B4A /* SearchView.swift */,
+				AC5BDD0329B0A4CF005D9B4A /* FilteringCategoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				AC5BDCDF29B09382005D9B4A /* MoneyKeeper.xcdatamodeld in Sources */,
 				AC5BDCF029B098EE005D9B4A /* Extension.swift in Sources */,
 				AC5BDCDC29B09382005D9B4A /* Persistence.swift in Sources */,
+				AC5BDD0429B0A4CF005D9B4A /* FilteringCategoryView.swift in Sources */,
 				AC5BDCD529B09381005D9B4A /* ContentView.swift in Sources */,
 				AC5BDCFA29B09BAA005D9B4A /* CategoryRowView.swift in Sources */,
 				AC5BDCF629B09A8D005D9B4A /* CoreDataStack.swift in Sources */,

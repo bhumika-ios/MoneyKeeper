@@ -21,34 +21,61 @@ struct AddMoneyKeeper: View {
     var presentationMode
     
     var title: String {
-        moneyToEdit == nil ? "Create Money" : "Edit Money"
+        moneyToEdit == nil ? "Add Money Spent Detail" : "Add Money Spent Detail"
+          
     }
     var body: some View {
         NavigationView {
-            Form {
-                TextField("Name", text: $name)
-                    .disableAutocorrection(true)
-                TextField("Amount", value: $amount, formatter: Utils.numberFormatter)
-                    .keyboardType(.numbersAndPunctuation)
+            VStack{
+            Text(title)
+           
+                Form {
+                    TextField("Name", text: $name)
+                        .disableAutocorrection(true)
+                    TextField("Amount", value: $amount, formatter: Utils.numberFormatter)
+                        .keyboardType(.numbersAndPunctuation)
                     
-                Picker(selection: $category, label: Text("Category")) {
-                    ForEach(Category.allCases) { category in
-                        Text(category.rawValue.capitalized).tag(category)
+                    Picker(selection: $category, label: Text("Category")) {
+                        ForEach(Category.allCases) { category in
+                            Text(category.rawValue.capitalized).tag(category)
+                        }
+                    }
+                    DatePicker(selection: $date, displayedComponents: .date) {
+                        Text("Date")
                     }
                 }
-                DatePicker(selection: $date, displayedComponents: .date) {
-                    Text("Date")
+                .overlay(alignment: .bottomTrailing){
+                    Button(action:
+                        self.onSaveTapped)
+                    {
+                        Text("Save")
+                            .frame(minWidth: 330, maxWidth: 39)
+                            .font(.system(size: 18).bold())
+                            .padding()
+                            .foregroundColor(.white)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 15)
+                                    .stroke(Color.white, lineWidth: 2)
+                                )
+                                .background(Color("Purple")) // If you have this
+                                .cornerRadius(15)
+                    }
+                    .offset(x: -15,y: -360)
+                 
+                    
                 }
             }
-           
 
             .navigationBarItems(
-                leading: Button(action: self.onCancelTapped) { Text("Cancel")},
-                trailing: Button(action: self.onSaveTapped) { Text("Save")}
+                leading: Button(action: self.onCancelTapped) { Image(systemName: "multiply")}
+               
+//                trailing: Button(action: self.onSaveTapped) { Text("Save")}
             )
-            .navigationBarTitle(title)
+//            .navigationBarTitle(Text(title)   .font(.subheadline))
+           
             
         }
+        
     }
     private func onCancelTapped() {
         self.presentationMode.wrappedValue.dismiss()

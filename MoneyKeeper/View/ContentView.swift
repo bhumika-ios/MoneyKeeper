@@ -14,7 +14,7 @@ struct ContentView: View {
                 .tabItem {
                     VStack {
                         Text("Home")
-                        Image(systemName: "homekit")
+                        Image(systemName: "house.fill")
                        
            
                     }
@@ -23,13 +23,25 @@ struct ContentView: View {
             DashboardTabView()
                 .tabItem {
                     VStack {
-                        Text("Dashboard")
+                        Text("Chart")
                         Image(systemName: "chart.pie")
            
                     }
             }
             .tag(1)
+//            DashboardTabView()
+//                .tabItem {
+//                    VStack {
+//                        Text("Profile")
+//                        Image(systemName: "person.fill")
+//                       
+//           
+//                    }
+//            }
+//            .tag(2)
         }
+        
+        .accentColor(Color("Purple"))
     }
 }
 

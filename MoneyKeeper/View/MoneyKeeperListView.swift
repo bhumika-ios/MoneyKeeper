@@ -71,6 +71,8 @@ struct MoneyKeeperListView: View {
                     date: money.date ?? Date()
                 )
             }
+         
+            .listStyle(.automatic)
         }
     }
     

@@ -20,11 +20,13 @@ struct DashboardTabView: View {
         VStack(spacing: 0) {
             VStack(spacing: 4) {
                 if totalMoney != nil {
-                    Text("Total Money")
+                    Text("Total Money Spent Detail Chart")
                         .font(.headline)
+                        .underline()
                     if totalMoney != nil {
                         Text(totalMoney!.formattedCurrencyText)
                             .font(.largeTitle)
+                            .foregroundColor(.red)
                     }
                 }
             }
